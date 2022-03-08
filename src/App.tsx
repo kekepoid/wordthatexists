@@ -52,19 +52,19 @@ export function App() {
                     <SocialIcon network={"telegram"} fgColor={"#fff"}/>
                 </TelegramShareButton>
             </div>
-            <div className={"flex flex-col"}>
+
             <a href={"https://chrome.google.com/webstore/detail/слово-которое-есть/ejhnffahiiddjkogpheffbhgkmjeeakb"}>
                 <button
                     className={"mt-4 sm:mt-4 text-xs sm:text-base bg-neutral-800 hover:bg-neutral-700 transition text-neutral-100 px-3 pt-1 pb-1.5 rounded"}>
                     Используй это расширение для чтения новостей
                 </button>
             </a>
-            <a href={"https://github.com/kekepoid/wordthatexists-extension"} className={"text-xs text-neutral-500 mt-2 ml-1"}>Исходники</a>
-            </div>
+
                 <div className={"mt-2 sm:mt-4 p-4 font-bold"}>
                 <TextWrapper><sup>*</sup>вас могут привлечь к ответственности за репост</TextWrapper>
             </div>
-
+            <a href={"https://github.com/kekepoid/wordthatexists-extension"} className={"text-xs text-neutral-500 mt-2 ml-1"}>Исходники</a>
+            
         </div>
     )
 }
