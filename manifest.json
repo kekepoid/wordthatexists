@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Слово, которое есть",
+  "description": "Автозамена слов для улучшения качества перевода",
+  "version": "0.2.0",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}
