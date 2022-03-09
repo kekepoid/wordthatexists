@@ -10,8 +10,8 @@ export function App() {
     return (
         <div className={"container mx-auto max-w-max h-screen flex flex-col items-center justify-center"}>
             <p className={"text-xl text-neutral-100 font-light"}>СЛОВО, КОТОРОЕ ЕСТЬ</p>
-            <p className={"mt-4 sm:mt-12 font-bold text-6xl sm:text-14xl  text-neutral-100"}>ВОЙНА</p>
-            <div className={"mt-6 text-center w-11/12 sm:w-7/12 flex flex-col gap-2"}>
+            <p className={"mt-4 md:mt-12 font-bold text-6xl md:text-10xl  text-neutral-100"}>ВОЙНА</p>
+            <div className={"mt-4 text-center w-11/12 md:w-7/12 flex flex-col gap-2"}>
                 <TextWrapper>
                     ПРАВИТЕЛЬСТВО РОССИИ УТВЕРЖДАЕТ, ЧТО ТАКОГО СЛОВА НЕТ. ОНИ ВСЕМИ СИЛАМИ СТАРАЮТСЯ СТЕРЕТЬ ЕГО ИЗ
                     НАШЕГО СОЗНАНИЯ, БЛОКИРУЯ СРЕДСТВА МАССОВОЙ ИНФОРМАЦИИ, СОЦИАЛЬНЫЕ СЕТИ, УГРОЖАЯ УГОЛОВНЫМ
@@ -55,16 +55,18 @@ export function App() {
 
             <a href={"https://chrome.google.com/webstore/detail/слово-которое-есть/ejhnffahiiddjkogpheffbhgkmjeeakb"}>
                 <button
-                    className={"mt-4 sm:mt-4 text-xs sm:text-base bg-neutral-800 hover:bg-neutral-700 transition text-neutral-100 px-3 pt-1 pb-1.5 rounded"}>
+                    className={"mt-4 md:mt-4 text-xs md:text-base bg-neutral-800 hover:bg-neutral-700 transition text-neutral-100 px-3 pt-1 pb-1.5 rounded"}>
                     Используй это расширение для чтения новостей
                 </button>
             </a>
 
-                <div className={"mt-2 sm:mt-4 p-4 font-bold"}>
+            <div className={"mt-2 md:mt-4 p-4 font-bold"}>
                 <TextWrapper><sup>*</sup>вас могут привлечь к ответственности за репост</TextWrapper>
             </div>
-            <a href={"https://github.com/kekepoid/wordthatexists-extension"} className={"text-xs text-neutral-500 mt-2 ml-1"}>Исходники</a>
-            
+            <a href={"https://github.com/kekepoid/wordthatexists-extension"}
+               className={"text-xs text-neutral-500 mt-2 ml-1"}>
+                Исходники
+            </a>
         </div>
     )
 }
